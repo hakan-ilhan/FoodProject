@@ -42,6 +42,7 @@ export default function ShareMealPage() {
             ></textarea>
           </p>
           <ImagePicker labal="Your image" name="image" />
+
           <p className={classes.actions}>
             <MealsFormSubmit />
           </p>
